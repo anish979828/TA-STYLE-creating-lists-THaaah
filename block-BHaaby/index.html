@@ -1,0 +1,128 @@
+<!-- - Create a layout according to the design shown below.
+
+![Creating lists Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/lists/ex-1.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+     <!-- title  -->
+    <title>Creating Lists</title>
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header  -->
+    <header class="header-section">
+        <div class="container">
+            <nav class="header-nav">
+                <a href="#">HOME</a>
+                <a href="#">About</a>
+                <a href="#">FAqs</a>
+                <a href="#">Program</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- main content  -->
+    <main class="container">
+        <section class="first-section flex">
+            <div class="box">
+                <ol class="ol1">
+                    <li>HOME</li>
+                    <li>Page</li>
+                    <li>Services</li>
+                    <li>About us</li>
+                    <li>Portfolio</li>
+                </ol>
+                <ol class="ol2" start="20">
+                    <li>Pricing</li>
+                    <li>News</li>
+                    <li>Testimonia</li>
+                    <li>Contact Us</li>
+                </ol>
+            </div>
+            <div class="box">
+                <ul class="ul1">
+                    <li>Home</li>
+                    <li>Menu
+                        <ol class="ol3">
+                            <li>Menu 1
+                                <ol class="ol4">
+                                    <li>Sub Menu1</li>
+                                    <li>Sub Menu2</li>
+                                </ol>
+                            </li>
+                            <li>Menu 2</li>
+                            <li>Menu 3</li>
+                            <li>Menu 4</li>
+                            <li>Menu 5</li>
+                        </ol>
+                    </li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="ul2">
+                    <li class="li">Home</li>
+                    <li class="li">Page</li>
+                    <li class="li">Services</li>
+                    <li class="li">About us</li>
+                    <li class="li">Portfolio</li>
+                    <li class="li">Pricing</li>
+                    <li class="li">News</li>
+                    <li class="li">Testimonia</li>
+                    <li class="li">Contact Us</li>
+                </ul>
+            </div>            
+        </section>
+        <section class="second-section">
+            <h1>What is Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsum magnam quod ducimus beatae! Necessitatibus impedit nostrum maxime, nisi ex, unde accusantium
+                , odio corrupti ratione excepturi temporibus architecto vero voluptas. Lorem ipsum dolor 
+                sit amet consectetur, adipisicing elit. Corporis ducimus ad maxime rem. Temporibus expedita molestias explicabo, fuga non vero ea eos maxime 
+                eum id reiciendis tempore, veniam aliquid accusantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptatum? Numquam molestias autem, 
+                tenetur consectetur, accusamus quod optio mollitia eum et dolores soluta neque qui nesciunt maxime beatae consequuntur ipsa.
+            </p>
+            <h2>Why do we use it?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsum magnam quod ducimus beatae! Necessitatibus impedit nostrum maxime, nisi ex, unde accusantium
+                , odio corrupti ratione excepturi temporibus architecto vero voluptas. Lorem ipsum dolor 
+                sit amet consectetur, adipisicing elit. Corporis ducimus ad maxime rem. Temporibus expedita molestias explicabo, fuga non vero ea eos maxime 
+                eum id reiciendis tempore, veniam aliquid accusantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptatum? Numquam molestias autem, 
+                tenetur consectetur, accusamus quod optio mollitia eum et dolores soluta neque qui nesciunt maxime beatae consequuntur ipsa.
+            </p>
+            <h2>Lorem Ipsum</h2>
+            <h2>Dummy Text</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsum magnam quod ducimus beatae! Necessitatibus impedit nostrum maxime, nisi ex, unde accusantium
+                , odio corrupti ratione excepturi temporibus architecto vero voluptas. Lorem ipsum dolor 
+                sit amet consectetur, adipisicing elit. Corporis ducimus ad maxime rem. Temporibus expedita molestias explicabo, fuga non vero ea eos maxime 
+                eum id reiciendis tempore, veniam aliquid accusantium.</p> 
+        </section>
+    </main>
+    <!-- footer  -->
+    <footer class="footer-section">
+        <nav class="footer-nav container">
+            <a href="#">HOME</a>
+            <a href="#">About</a>
+            <a href="#">FAqs</a>
+            <a href="#">Program</a>
+            <a href="#">Contact</a>
+        </nav>
+    </footer>
+
+    
+</body>
+</html>
